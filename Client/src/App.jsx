@@ -7,6 +7,7 @@ import SignIn from './Pages/SignIn'
 import Login from './Pages/Login'
 import Projects from './Pages/Projects'
 import Header from './Components/Header'
+import BlogFooter from './Components/BlogFooter'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/projects' element={<Projects />} />
       </Routes>
+      <BlogFooter />
     </BrowserRouter>
   )
 }
