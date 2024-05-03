@@ -19,10 +19,10 @@ export default function BlogFooter() {
               to="/"
               className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
             >
-              <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded text-white">
-                Blog
+              <span className="pl-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded text-white">
+                PostA
               </span>
-              Ger
+              rena
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
@@ -61,7 +61,7 @@ export default function BlogFooter() {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright
             href="#"
-            by="BlogGer's"
+            by="PostArena's"
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
