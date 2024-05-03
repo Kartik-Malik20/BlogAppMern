@@ -109,6 +109,7 @@ export default function CreatePost() {
             <option value="trending">Trending</option>
             <option value="movies">Movie</option>
             <option value="gaming">Gaming</option>
+            <option value="education">Education</option>
             <option value="news">News</option>
             <option value="music">Music</option>
             <option value="sports">Sports</option>
