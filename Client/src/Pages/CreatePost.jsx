@@ -106,9 +106,15 @@ export default function CreatePost() {
             }
           >
             <option value="uncategorized">Select a category</option>
+            <option value="trending">Trending</option>
             <option value="movies">Movie</option>
             <option value="gaming">Gaming</option>
             <option value="news">News</option>
+            <option value="music">Music</option>
+            <option value="sports">Sports</option>
+            <option value="courses">Courses</option>
+            <option value="fashionBeauty">Fashion & Beauty</option>
+            <option value="podcasts">Podcasts</option>
           </Select>
         </div>
         <div className="flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3">
