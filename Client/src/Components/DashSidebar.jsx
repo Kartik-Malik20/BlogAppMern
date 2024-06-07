@@ -4,6 +4,7 @@ import { HiArrowRight, HiDocumentText, HiOutlineUserGroup, HiUser, HiUsers } fro
 import { Link, useLocation } from "react-router-dom";
 import { signoutSuccess } from "../redux/user/userSlice";
 import { useDispatch, useSelector } from "react-redux";
+import { FaComment } from "react-icons/fa";
 
 export default function DashSidebar() {
   const { currentUser } = useSelector((state) => state.user);
@@ -70,6 +71,16 @@ export default function DashSidebar() {
                 as="div"
               >
                 Users
+              </Sidebar.Item>
+            </Link>
+            <Link to={"/dashboard?tab=comments"}>
+              <Sidebar.Item
+                active={tab === "comments"}
+                icon={FaComment}
+                labelColor="dark"
+                as="div"
+              >
+                Comments
               </Sidebar.Item>
             </Link>
             </>
